@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:400,700");
+
+body {
+	margin: 0;
+	font-family: "Raleway";
+	font-size: 18px;
+	color: #F5F5F5;
+	text-align: center;
+	overflow: auto;
+}
+header {
+    font-size: 40;
+    padding: 2px;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;    
+}
+nav ul li {
+    display: inline-block;
+}
+nav ul li a {
+	display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+nav ul li a:hover, nav ul li.active a {
+	color: #F5F5F5;
+    background-color: #0A0A0A;
+}
+.pics {
+    margin: 0 auto;
+	width: 100%;
+	float: center;
+    padding: 4px;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.weddings {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 7%; 
+    display: table;
+    content: " ";
+}
+#weddings_heading {
+    padding-top: 2%;
+}
+.col-md-6 {
+    display: inline-block;
+    width: 44%;
+    margin: auto;
+    display: table;
+    float: left;
+    padding: 1%;
+}
+.col-md-3 {
+    display: inline-block;
+    width: 22%;
+    margin: auto;
+    display: table;
+    float: left;
+    padding: 1%;
+}
+footer {
+    background: #444;
+    padding: 4%;
+}
+.social a {
+    padding: 20px;
+    font-size: 50px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5%;
+    color: #0A0A0A;
+}
+.social a:hover {
+    color: #F5F5F5;
+}
+
+@media (max-width: 768px) {
+    nav ul {
+        padding-left: 0;
+    }
+    nav ul li {
+        width: 100%;
+        border-left: 0;
+        border-right: 0;
+    }
+    nav ul li {
+        padding: 8px 0;
+        font-size: 20px;
+    }
+    img {
+        width: 100%;
+        padding: 0;
+    }
+    .weddings {
+        width: 100%;
+        padding: 0;
+        font-size: 16px;
+    }
+    #weddings_heading {
+        font-size: 40px;
+        padding: 0;
+    }
+    .col-md-6 {
+        width: 100%;
+        padding: 0;
+    }
+    .col-md-3 {
+        width: 100%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .social {
+    font-size: 200%;
+    padding: 0;
+}
